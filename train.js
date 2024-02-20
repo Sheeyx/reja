@@ -1,13 +1,13 @@
-// D-TASK: 
+// E-TASK: 
+// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
 
-function checkContent (str1, str2){
-    str1 = str1.split("").sort().join("");
-    str2 = str2.split("").sort().join("");
-    
-    return str1 == str2;
+
+function getReverse(str){
+    return str.split("").reverse().join("");
   }
   
   
-  result = checkContent("mitgroup", "gmtiprou")
+  result = getReverse("hello");
   
   console.log(result);
